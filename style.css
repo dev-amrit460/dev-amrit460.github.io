@@ -35,7 +35,7 @@ background: linear-gradient(to right, #fffcdc, #d9a7c7, #fffcdc) fixed; /* W3C, 
 .footer{
    display:flex;
    left: 0;
-   bottom: 0;
+   bottom: 0px;
    background-color: #1e1f1e;
    border-radius: 5px;
    color: white;
