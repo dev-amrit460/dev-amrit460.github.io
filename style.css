@@ -28,12 +28,7 @@ body
 	border-radius: 20px;
 	padding-bottom:3px;
 }
-.organization{
-	background-color:#fcab86;
-	margin-right:100px;
-	margin-left:5px;
-	border-radius:10px;
-}
+
 #para{
 	margin-left:10px;
 	margin-right:10px;
@@ -53,10 +48,6 @@ body
 	display:flex;
 }
 .navbar{
-	width:auto;
-}
-.educationgroup{
-	display:flex;
 	width:auto;
 }
 .lead{
@@ -115,14 +106,27 @@ body
 	font-size: 30px !important;
 	animation: letszoom 2s linear alternate-reverse infinite;
 }
+#me{
+	animation: zoom 5s linear alternate-reverse infinite;
+}
 
 @keyframes letszoom {
 	from {
-		transform: scale(0.8);
+		transform: scale(0.7);
 	}
 
 	to {
-		transform: scale(1.1);
+		transform: scale(1.0);
+	}
+
+}
+@keyframes zoom {
+	from {
+		transform: scale(0.95);
+	}
+
+	to {
+		transform: scale(1.0);
 	}
 
 }
