@@ -1,14 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-body
-{   background: #e0fbff;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right,  #FFFFFF, #e0fbff,#FFFFFF);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right,  #FFFFFF,#e0fbff,#FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	
-    margin: 0;
+*{
+	margin: 0;
     padding: 0;
-    overflow-x: hidden; 
+	box-sizing: border-box;
+}
+body
+{   background: linear-gradient(90deg, #87CEFA, #fcdddd, #efffc9, #cececd,#cefc9a);
+    background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+	overflow-x: hidden;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#dev1{
+	color: #000;
 }
 #icon{
 	width:200px;
