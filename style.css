@@ -29,13 +29,12 @@ body
 	color: #000;
 }
 #icon{
-	width:200px;
-	height:200px;
+	width:165px;
+	height:165px;
 }
 #skill-text{
 	color:black;
-	font-weight:bold;
-	font-size:2em;
+	font-size:20px;
 	text-align:center;
 }
 #head3{
