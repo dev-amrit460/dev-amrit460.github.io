@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
 *{
 	margin: 0;
     padding: 0;
 	box-sizing: border-box;
 }
 body
-{   background: linear-gradient(90deg, #87CEFA, #fcdddd, #efffc9, #cececd,#cefc9a);
+{   background: linear-gradient(90deg, #FFFAFA,#FAEBD7,#FAF0E6,#FFF8DC,#FFDEAD,#DCDCDC,#FFF0F5,#FFFFE0,#FFEFD5);
     background-size: 400% 400%;
-	animation: gradient 8s ease infinite;
+	animation: gradient 20s ease infinite;
 	overflow-x: hidden;
 }
 @keyframes gradient {
@@ -163,4 +165,20 @@ h3{
 }
 .para_pro{
 	font-family: 'IBM Plex Sans', sans-serif;
+}
+#mainNav{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background: linear-gradient(90deg,#fff,#E6E6FA,#E0FFFF,#F0FFF0,#F5FFFA,#F0FFFF,#F0F8FF,#B0E0E6);
+    background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+}
+#brand{
+font-family: 'Concert One', cursive;
+font-size: larger;
+background-color:transparent;
+padding-left: 5px;
+padding-right: 5px;
+border-radius: 5px;
+border: 1px solid #DC4535;
 }
