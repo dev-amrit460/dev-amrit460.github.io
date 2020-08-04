@@ -169,16 +169,21 @@ h3{
 #mainNav{
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
-	background: linear-gradient(90deg,#fff,#E6E6FA,#E0FFFF,#F0FFF0,#F5FFFA,#F0FFFF,#F0F8FF,#B0E0E6);
+	background: linear-gradient(90deg,#000000,#434343, #141e30, #243b55,#1f1c2c,#0f2027, #203a43, #2c5364);
     background-size: 400% 400%;
 	animation: gradient 20s ease infinite;
 }
 #brand{
 font-family: 'Concert One', cursive;
 font-size: larger;
-background-color:transparent;
 padding-left: 5px;
 padding-right: 5px;
 border-radius: 5px;
 border: 1px solid #DC4535;
+color: white;
 }
+#navlink{
+	color: white;
+	font-family: 'Concert One', cursive;
+}
+
