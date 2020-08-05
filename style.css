@@ -48,25 +48,44 @@ body
 	padding-bottom:3px;
 }
 
-#para{
-	padding-left:25px;
-	padding-right:25px;
-	text-align: justify;
-}
 #skill-text{
 	font-family:'Fredoka One', cursive;
 }
 h3{
 	font-family:'Fredoka One', cursive;	
 }
-#bio{
+#para{
 	background-color:#c0dffa;
+	font-weight: 400;
+	border-radius: 10px;
+	padding-left:25px;
+	padding-right:25px;
+	text-align: justify;
 }
+#likes{
+font-family: 'Balsamiq Sans', cursive;
+font-size: larger;
+background-color: turquoise;
+border-radius: 10px;
+}
+
+#colx{
+	background-color: rgb(250, 181, 181);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#coly{
+	background-color: lightyellow;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
 .col-9{
-	font-size:large;
-	font-weight:bold;
-	font-style: Bookman;
+	font-size:larger;
+	font-family: 'Balsamiq Sans', cursive;
 }
+
 #parah{
 	font-size:large;
 }
