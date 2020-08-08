@@ -75,7 +75,7 @@ border-radius: 10px;
 }
 
 #coly{
-	background-color: rgb(252, 252, 206);
+	background-color: rgb(255, 180, 180);
 	border-radius: 10px;
 	box-shadow: 0 0 10px 10px white inset;
 }
@@ -193,4 +193,3 @@ color: white;
 	color: white;
 	font-family: 'Concert One', cursive;
 }
-
