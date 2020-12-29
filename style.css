@@ -229,7 +229,7 @@ h3 {
 	padding-left: 3rem;
 }
 
-@media(prefers-color-scheme:dark) {
+/* @media(prefers-color-scheme:dark) {
 	body {
 		background: linear-gradient(90deg, #000, #434343, #0f2027, #203a43, #2c5364);
 		background-size: 400% 400%;
@@ -276,7 +276,7 @@ h3 {
 	#pro {
 		color: #fff
 	}
-}
+} */
 
 #navlink:hover {
 	background-color: #fff;
