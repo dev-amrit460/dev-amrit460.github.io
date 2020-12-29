@@ -1,1 +1,284 @@
-@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap);@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap);@import url(https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap);@import url(https://fonts.googleapis.com/css2?family=Concert+One&display=swap);@import url(https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap);*{margin:0;padding:0;box-sizing:border-box}body{background:linear-gradient(-45deg,snow,#faebd7,linen,#fff8dc,#ffdead,#dcdcdc,#fff0f5,#ffffe0,#ffefd5);background-size:400% 400%;animation:gradient 20s ease infinite;overflow-x:hidden}@keyframes gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}#dev1{color:#000;font-family:'Balsamiq Sans',cursive}#icon{width:10.3125rem;height:10.3125rem}#skill-text{color:#000;font-size:1.25rem;text-align:center}#head3{background-color:#effab6;border-style:solid;border-color:#eaff7d;border-width:1px;border-radius:20px;padding-bottom:3px}#skill-text{font-family:'Fredoka One',cursive}h3{font-family:'Fredoka One',cursive}#para{background-color:#c0dffa;font-weight:400;border-radius:10px;padding-left:25px;padding-right:25px;text-align:justify}#likes{font-family:'Balsamiq Sans',cursive;font-size:larger;background-color:#40e0d0;border-radius:10px}#colx{background-color:#fdd3d3;border-radius:10px;box-shadow:0 0 10px 10px #fff inset}#coly{background-color:#ffb4b4;border-radius:10px;box-shadow:0 0 10px 10px #fff inset}.col-9{font-size:larger;font-family:'Balsamiq Sans',cursive}#parah{font-size:large}.lead{text-align:left}.navbar-toggler{float:right}.icon-bar{position:fixed;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);z-index:10}.icon-bar a{text-decoration:none;width:210px;color:#fff;display:flex;justify-content:flex-end;align-items:center;padding:5px;font-size:20px;transform:translateX(-170px);-webkit-transform:translateX(-170px);-ms-transform:translateX(-170px);transition:all .5s linear;-webkit-transition:all .5s linear}.facebook{background:#3b5998}.twitter{background:#00aced}.instagram{background:#e4405f}.git{background:#000}.linkedin{background:#0077b5}.icon-bar a i{padding-left:20px;font-size:1.875rem!important;animation:letszoom 2s linear alternate-reverse infinite}@keyframes letszoom{from{transform:scale(.7)}to{transform:scale(1)}}.icon-bar a:hover{transform:translateX(0);-webkit-transform:translateX(0);-ms-transform:translateX(0);text-decoration:none;color:#fff}.about_img{min-width:100%;max-height:17.5rem}.para_pro{font-family:'IBM Plex Sans',sans-serif}.navbar{width:auto;border-bottom-left-radius:10px;border-bottom-right-radius:10px;background:linear-gradient(90deg,#000,#434343,#141e30,#243b55,#1f1c2c,#0f2027,#203a43,#2c5364);background-size:400% 400%;animation:gradient 20s ease infinite}#brand{font-family:'Concert One',cursive;font-size:larger;padding-left:5px;padding-right:5px;border-radius:5px;color:#fff}#navlink{color:#fff;font-family:'Concert One',cursive}#education{background-color:#fff}@media(prefers-color-scheme:dark){body{background:linear-gradient(90deg,#000,#434343,#0f2027,#203a43,#2c5364);background-size:400% 400%;animation:gradient 20s ease infinite}#dev1,#name,#team{color:#fff}#hr{border:1px solid red}#skill-text{color:#fff}#jumbo{background-color:teal;color:#fff}#para{background-color:#2e343a;color:#fff}.hobbies{color:#fff}#likes{background-color:#011f1f;color:#fff}#colx{background-color:#1c2020;color:#fff}#coly{background-color:#0f1b1b;color:#fff}#education{background-color:#1a1b1b;color:#fff}#pro{color:#fff}}#navlink:hover{background-color:#fff;color:#000}
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Concert+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(-45deg, #A0DAA9,#EFE1CE,#a2cffe,#e6daa6,#cdfdc8,#fffcc4,#ddc0fa,#b7c9e2,#cbebb9,#edf7b7,#edc8ff,#fdfdfe);
+	background-size: 400% 400%;
+	animation: gradient 18s ease infinite;
+	overflow-x: hidden;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0 50%
+	}
+}
+
+#dev1 {
+	color: #000;
+	font-family: 'Balsamiq Sans', cursive
+}
+
+#icon {
+	width: 10.3125rem;
+	height: 10.3125rem
+}
+
+#skill-text {
+	color: #000;
+	font-size: 1.25rem;
+	text-align: center
+}
+
+#head3 {
+	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
+	border-radius: .3rem;
+	background: rgba(255, 255, 255, 0.6);
+	padding-bottom: 3px;
+}
+
+#skill-text {
+	font-family: 'Fredoka One', cursive
+}
+
+h3 {
+	font-family: 'Fredoka One', cursive
+}
+
+#bio {
+	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
+	border-radius: 1rem;
+	background: rgba(255, 255, 255, 0.6);
+	text-align: justify;
+	margin: 0.625rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#likes {
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: larger;
+	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.6);
+	margin: 0.625rem;
+}
+#detail{
+	margin: 0.625rem;	
+}
+#colx {
+	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.6);
+}
+
+#coly {
+	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.6);
+}
+
+.col-9 {
+	font-size: larger;
+	font-family: 'Balsamiq Sans', cursive
+}
+
+#parah {
+	font-size: large;
+}
+
+.lead {
+	text-align: justify;
+}
+
+.navbar-toggler {
+	float: right
+}
+
+.icon-bar {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	z-index: 10
+}
+
+.icon-bar a {
+	text-decoration: none;
+	width: 210px;
+	color: #fff;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 5px;
+	font-size: 20px;
+	transform: translateX(-170px);
+	-webkit-transform: translateX(-170px);
+	-ms-transform: translateX(-170px);
+	transition: all .5s linear;
+	-webkit-transition: all .5s linear
+}
+
+.facebook {
+	background: #3b5998
+}
+
+.twitter {
+	background: #00aced
+}
+
+.instagram {
+	background: #e4405f
+}
+
+.git {
+	background: #000
+}
+
+.linkedin {
+	background: #0077b5
+}
+
+.icon-bar a i {
+	padding-left: 20px;
+	font-size: 1.875rem!important;
+	animation: letszoom 2s linear alternate-reverse infinite
+}
+
+@keyframes letszoom {
+	from {
+		transform: scale(.8)
+	}
+	to {
+		transform: scale(1)
+	}
+}
+
+.icon-bar a:hover {
+	transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	text-decoration: none;
+	color: #fff
+}
+
+.about_img {
+	min-width: 100%;
+	max-height: 17.5rem
+}
+
+.para_pro {
+	font-family: 'IBM Plex Sans', sans-serif
+}
+
+.navbar {
+	width: auto;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background: linear-gradient(90deg, #000, #434343, #141e30, #243b55, #1f1c2c, #0f2027, #203a43, #2c5364);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite
+}
+
+#brand {
+	font-family: 'Concert One', cursive;
+	font-size: larger;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5px;
+	color: #fff
+}
+
+#navlink {
+	color: #fff;
+	font-family: 'Concert One', cursive
+}
+
+#education {
+	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.6);
+	margin: 0.625rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+#jumbo{
+	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
+	border-radius: 25px;
+	background: rgba(255, 255, 255, 0.6);
+}
+.hobbies{
+	padding-left: 3rem;
+}
+
+@media(prefers-color-scheme:dark) {
+	body {
+		background: linear-gradient(90deg, #000, #434343, #0f2027, #203a43, #2c5364);
+		background-size: 400% 400%;
+		animation: gradient 20s ease infinite
+	}
+	#dev1,
+	#name,
+	#team {
+		color: #fff
+	}
+	#hr {
+		border: 1px solid red
+	}
+	#skill-text {
+		color: #fff
+	}
+	#jumbo {
+		background-color: rgb(2, 5, 5);
+		color: #fff
+	}
+	#bio{
+		background-color: #000000;
+		color: #fff
+	}
+	.hobbies {
+		color: #fff
+	}
+	#likes {
+		background-color: #000000;
+		color: #fff
+	}
+	#colx {
+		background-color: #000000;
+		color: #fff
+	}
+	#coly {
+		background-color: #000000;
+		color: #fff
+	}
+	#education {
+		background-color: #000000;
+		color: #fff
+	}
+	#pro {
+		color: #fff
+	}
+}
+
+#navlink:hover {
+	background-color: #fff;
+	color: #000
+}
