@@ -123,7 +123,7 @@ h3 {
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
-	z-index: 10
+	z-index: 10;
 }
 
 .icon-bar a {
@@ -139,33 +139,33 @@ h3 {
 	-webkit-transform: translateX(-170px);
 	-ms-transform: translateX(-170px);
 	transition: all .5s linear;
-	-webkit-transition: all .5s linear
+	-webkit-transition: all .5s linear;
 }
 
 .facebook {
-	background: #3b5998
+	background: #3b5998;
 }
 
 .twitter {
-	background: #00aced
+	background: #00aced;
 }
 
 .instagram {
-	background: #e4405f
+	background: #e4405f;
 }
 
 .git {
-	background: #000
+	background: #000;
 }
 
 .linkedin {
-	background: #0077b5
+	background: #0077b5;
 }
 
 .icon-bar a i {
 	padding-left: 20px;
 	font-size: 1.875rem!important;
-	animation: letszoom 2s linear alternate-reverse infinite
+	animation: letszoom 2s linear alternate-reverse infinite;
 }
 
 @keyframes letszoom {
@@ -182,16 +182,16 @@ h3 {
 	-webkit-transform: translateX(0);
 	-ms-transform: translateX(0);
 	text-decoration: none;
-	color: #fff
+	color: #fff;
 }
 
 .about_img {
 	min-width: 100%;
-	max-height: 17.5rem
+	max-height: 17.5rem;
 }
 
 .para_pro {
-	font-family: 'IBM Plex Sans', sans-serif
+	font-family: 'IBM Plex Sans', sans-;
 }
 
 .navbar {
@@ -200,7 +200,7 @@ h3 {
 	border-bottom-right-radius: 10px;
 	background: linear-gradient(90deg, #000, #434343, #141e30, #243b55, #1f1c2c, #0f2027, #203a43, #2c5364);
 	background-size: 400% 400%;
-	animation: gradient 20s ease infinite
+	animation: gradient 20s ease infinite;
 }
 
 #brand {
@@ -209,12 +209,12 @@ h3 {
 	padding-left: 5px;
 	padding-right: 5px;
 	border-radius: 5px;
-	color: #fff
+	color: #fff;
 }
 
 #navlink {
 	color: #fff;
-	font-family: 'Concert One', cursive
+	font-family: 'Concert One', cursive;
 }
 
 #education {
@@ -287,5 +287,5 @@ h3 {
 
 #navlink:hover {
 	background-color: #fff;
-	color: #000
+	color: #000;
 }
