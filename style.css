@@ -50,7 +50,7 @@ body {
 #head3 {
 	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
 	border-radius: .3rem;
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.3);
 	padding-bottom: 3px;
 }
 
@@ -65,7 +65,7 @@ h3 {
 #bio {
 	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
 	border-radius: 1rem;
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.3);
 	text-align: justify;
 	margin: 0.625rem;
 	display: flex;
@@ -78,7 +78,7 @@ h3 {
 	font-size: larger;
 	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.3);
 	margin: 0.625rem;
 }
 #detail{
@@ -89,14 +89,14 @@ h3 {
 #colx {
 	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.3);
 	margin: 1rem;
 }
 
 #coly {
 	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.3);
 	margin: 1rem;
 }
 
@@ -220,7 +220,7 @@ h3 {
 #education {
 	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.3);
 	margin: 0.625rem;
 	display: flex;
 	justify-content: center;
@@ -230,7 +230,7 @@ h3 {
 #jumbo{
 	box-shadow: 20px 20px 50x rgba(0, 0, 0, 0.5);
 	border-radius: 25px;
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.3);
 }
 .hobbies{
 	padding-left: 3rem;
