@@ -233,7 +233,9 @@ h3 {
 .hobbies{
 	padding-left: 3rem;
 }
-
+.progress-bar{
+	background-color: #4dfd4d !important;
+}
 /* @media(prefers-color-scheme:dark) {
 	body {
 		background: linear-gradient(90deg, #000, #434343, #0f2027, #203a43, #2c5364);
