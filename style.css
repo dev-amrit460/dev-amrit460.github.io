@@ -198,9 +198,7 @@ h3 {
 	width: auto;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
-	background: linear-gradient(90deg, #000, #434343, #141e30, #243b55, #1f1c2c, #0f2027, #203a43, #2c5364);
-	background-size: 400% 400%;
-	animation: gradient 20s ease infinite;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 #brand {
@@ -209,11 +207,11 @@ h3 {
 	padding-left: 5px;
 	padding-right: 5px;
 	border-radius: 5px;
-	color: #fff;
+	color: #000;
 }
 
 #navlink {
-	color: #fff;
+	color: #000;
 	font-family: 'Concert One', cursive;
 }
 
@@ -286,6 +284,6 @@ h3 {
 } */
 
 #navlink:hover {
-	background-color: #fff;
-	color: #000;
+	background-color: #000;
+	color: white;
 }
