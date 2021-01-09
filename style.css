@@ -30,15 +30,22 @@ body {
 		background-position: 0 50%
 	}
 }
+#dev{
+	text-align: center;
+}
 
-#dev1 {
+#dev1{
 	color: #000;
-	font-family: 'Balsamiq Sans', cursive
+	font-family: 'Balsamiq Sans', cursive;
+	text-align: center;
 }
 
 #icon {
 	width: 10.3125rem;
 	height: 10.3125rem
+}
+#icon:hover{
+	animation: letszoom 2s linear alternate-reverse infinite;
 }
 
 #skill-text {
@@ -128,18 +135,20 @@ h3 {
 
 .icon-bar a {
 	text-decoration: none;
-	width: 210px;
+	width: 9.3rem;
 	color: #fff;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	padding: 5px;
-	font-size: 20px;
-	transform: translateX(-170px);
-	-webkit-transform: translateX(-170px);
-	-ms-transform: translateX(-170px);
+	padding: 0.45rem;
+	font-size: 1.25rem;
+	transform: translateX(-7.5rem);
+	-webkit-transform: translateX(-6.8rem);
+	-ms-transform: translateX(-7.5rem);
 	transition: all .5s linear;
 	-webkit-transition: all .5s linear;
+	border-top-right-radius:1.5rem;
+	border-bottom-right-radius:1.5rem;
 }
 
 .facebook {
@@ -151,11 +160,11 @@ h3 {
 }
 
 .instagram {
-	background: #e4405f;
+	background: #E1306C;
 }
 
 .git {
-	background: #000;
+	background:orangered;
 }
 
 .linkedin {
@@ -163,14 +172,14 @@ h3 {
 }
 
 .icon-bar a i {
-	padding-left: 20px;
+	padding-left: 1.25rem;
 	font-size: 1.875rem!important;
 	animation: letszoom 2s linear alternate-reverse infinite;
 }
 
 @keyframes letszoom {
 	from {
-		transform: scale(.8)
+		transform: scale(.85)
 	}
 	to {
 		transform: scale(1)
@@ -182,7 +191,7 @@ h3 {
 	-webkit-transform: translateX(0);
 	-ms-transform: translateX(0);
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
 
 .about_img {
