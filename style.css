@@ -8,27 +8,20 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+::-webkit-scrollbar{
+	width: 0px;
+}
 body {
-	background: linear-gradient(-45deg, #A0DAA9,#EFE1CE,#a2cffe,#e6daa6,#cdfdc8,#fffcc4,#ddc0fa,#b7c9e2,#cbebb9,#edf7b7,#edc8ff,#fdfdfe);
-	background-size: 400% 400%;
-	animation: gradient 18s ease infinite;
+	background-image: url("assets/bg.svg");
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	overflow-x: hidden;
+	background-attachment: fixed;
 }
 #me{
 	width: 15.625rem;
 	height: auto;
-}
-@keyframes gradient {
-	0% {
-		background-position: 0 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0 50%
-	}
 }
 #dev{
 	text-align: center;
