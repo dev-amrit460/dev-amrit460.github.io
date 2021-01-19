@@ -12,12 +12,7 @@
 	width: 0px;
 }
 body {
-	background-image: url("assets/bg.svg");
-	background-size:cover;
-	background-position: center;
-	background-repeat: no-repeat;
 	overflow-x: hidden;
-	background-attachment: fixed;
 }
 #me{
 	width: 15.625rem;
