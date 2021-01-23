@@ -105,7 +105,10 @@
     </div>
     <script>
       function portfolio() {
+        if(screen.width<992)
         location.replace("home.html");
+        else
+        location.replace("https://portfolio-3ef9c.web.app/");
       }
       setTimeout(function () {
         portfolio();
