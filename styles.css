@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #e1eec3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #f05053,
+    #e1eec3,
+    #f4c4f3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    -45deg,
+    #f05053,
+    #e1eec3,
+    #f4c4f3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+div {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: inset 0 50px 150px rgba(255, 255, 255, 0.8);
+  animation: animate 1s ease-in-out forwards;
+}
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+div:nth-child(1) {
+  width: 97vw;
+  height: 97vw;
+  animation-delay: 0s;
+  -moz-animation-delay: 0s;
+}
+div:nth-child(2) {
+  width: 83vw;
+  height: 83vw;
+  animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+}
+div:nth-child(3) {
+  width: 69vw;
+  height: 69vw;
+  animation-delay: 0.75s;
+  -moz-animation-delay: 0.75s;
+}
+div:nth-child(4) {
+  width: 55vw;
+  height: 55vw;
+  animation-delay: 1s;
+  -moz-animation-delay: 1s;
+}
+div:nth-child(5) {
+  width: 41vw;
+  height: 41vw;
+  animation-delay: 1.25s;
+  -moz-animation-delay: 1.25s;
+}
+img {
+  z-index: -1;
+}
