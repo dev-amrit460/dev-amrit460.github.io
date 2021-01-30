@@ -71,4 +71,6 @@ div:nth-child(5) {
 }
 img {
   z-index: -1;
+  width: 41vw;
+  height: auto;
 }
