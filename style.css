@@ -115,6 +115,7 @@ h3 {
 
 .icon-bar {
 	position: fixed;
+	width: 2rem;
 	top: 50%;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
@@ -168,7 +169,7 @@ h3 {
 
 @keyframes letszoom {
 	from {
-		transform: scale(.85)
+		transform: scale(.8)
 	}
 	to {
 		transform: scale(1)
