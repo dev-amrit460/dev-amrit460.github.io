@@ -289,3 +289,7 @@ h3 {
 	background-color: #000;
 	color: white;
 }
+#edu{
+	display: flex;
+	flex-direction: column-reverse;
+}
