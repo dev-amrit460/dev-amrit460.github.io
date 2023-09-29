@@ -7,15 +7,15 @@ body {
   background: #e1eec3; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     -45deg,
-    #f05053,
-    #e1eec3,
-    #f4c4f3
+    #2ecc71,
+    #3498db,
+    #9b59b6
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     -45deg,
-    #f05053,
-    #e1eec3,
-    #f4c4f3
+    #2ecc71,
+    #3498db,
+    #9b59b6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 div {
@@ -31,6 +31,12 @@ div {
   box-shadow: inset 0 50px 150px rgba(255, 255, 255, 0.8);
   animation: animate 1s ease-in-out forwards;
 }
+
+div img {
+  width: 100%;
+  height: 100%;
+}
+
 @keyframes animate {
   0% {
     transform: translate(-50%, -50%) scale(0);
@@ -40,34 +46,36 @@ div {
   }
 }
 div:nth-child(1) {
-  width: 97vw;
-  height: 97vw;
+  width: min(97vw,97vh);
+  height: min(97vw,97vh);
   animation-delay: 0s;
   -moz-animation-delay: 0s;
 }
 div:nth-child(2) {
-  width: 83vw;
-  height: 83vw;
+  width: min(83vw,83vh);
+  height: min(83vw,83vh);
   animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
 }
 div:nth-child(3) {
-  width: 69vw;
-  height: 69vw;
+  width: min(69vw,69vh);
+  height: min(69vw,69vh);
   animation-delay: 0.75s;
   -moz-animation-delay: 0.75s;
 }
 div:nth-child(4) {
-  width: 55vw;
-  height: 55vw;
+  width: min(55vw,55vh);
+  height: min(55vw,55vh);
   animation-delay: 1s;
   -moz-animation-delay: 1s;
 }
 div:nth-child(5) {
-  width: 41vw;
-  height: 41vw;
+  width: min(41vw,41vh);
+  height: min(41vw,41vh);
+  padding: min(8vw,8vh);
   animation-delay: 1.25s;
   -moz-animation-delay: 1.25s;
+  background-color: white;
 }
 img {
   z-index: -1;
