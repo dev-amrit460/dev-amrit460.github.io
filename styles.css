@@ -54,27 +54,27 @@ div:nth-child(1) {
 div:nth-child(2) {
   width: min(83vw,83vh);
   height: min(83vw,83vh);
-  animation-delay: 0.25s;
-  -moz-animation-delay: 0.25s;
+  animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
 }
 div:nth-child(3) {
   width: min(69vw,69vh);
   height: min(69vw,69vh);
-  animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
+  animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
 }
 div:nth-child(4) {
   width: min(55vw,55vh);
   height: min(55vw,55vh);
-  animation-delay: 0.75s;
-  -moz-animation-delay: 0.75s;
+  animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
 }
 div:nth-child(5) {
   width: min(41vw,41vh);
   height: min(41vw,41vh);
   padding: min(8vw,8vh);
-  animation-delay: 1s;
-  -moz-animation-delay: 1s;
+  animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
   background-color: white;
 }
 img {
